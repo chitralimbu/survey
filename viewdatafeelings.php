@@ -1,6 +1,6 @@
 
 <?php
-  $mysqli=mysqli_connect("ephesus.cs.cf.ac.uk", "c1327916", "dharanboi1995", "c1327916");
+  $mysqli=mysqli_connect("URL", "username", "password", "username");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
